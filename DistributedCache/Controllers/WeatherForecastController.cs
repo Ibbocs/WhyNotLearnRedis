@@ -10,6 +10,7 @@ namespace DistributedCache.Controllers
     {
 
         private readonly IDistributedCache _distributedCache;
+        //distributed cache olanda muyyen vaxtdan sora ve ya server kill olanda datalar silinir.
 
         public WeatherForecastController(IDistributedCache distributedCache)
         {
